@@ -62,12 +62,12 @@ print(genericClass.typeName) // "GenericClass<String>"
 print(genericStruct.typeName) // "GenericStruct<Int, String>"
 
 // Root type name (without generics)
-print(genericClass.genericRootTypeName) // "GenericClass"
-print(genericStruct.genericRootTypeName) // "GenericStruct"
+print(genericClass.rootTypeName) // "GenericClass"
+print(genericStruct.rootTypeName) // "GenericStruct"
 
 // Generic child type names
-print(genericClass.genericChildTypeNames) // ["String"]
-print(genericStruct.genericChildTypeNames) // ["Int", "String"]
+print(genericClass.genericTypeNames) // ["String"]
+print(genericStruct.genericTypeNames) // ["Int", "String"]
 ```
 
 ### Built-in Types
