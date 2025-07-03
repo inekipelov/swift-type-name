@@ -8,6 +8,11 @@ Utility Swift package for getting type names at runtime and compile time. Protoc
 - **Static type name access** - Access type names without instances
 - **Generic type support** - Parse and extract generic type information
 
+## Requirements
+
+- Swift 5.0+
+- iOS 9.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
+
 ## Installation
 
 ### Swift Package Manager
@@ -115,14 +120,6 @@ protocol TypeNameDescribable {
 ### Static Properties
 
 - `typeName: String` - Static type name
-
-## Requirements
-
-- iOS 13.0+
-- macOS 10.15+
-- tvOS 13.0+
-- watchOS 6.0+
-- Swift 5.5+
 
 ## License
 
