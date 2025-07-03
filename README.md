@@ -83,8 +83,8 @@ let dict = Dictionary<String, Int>()
 print(array.typeName) // "Array<String>"
 print(dict.typeName) // "Dictionary<String, Int>"
 
-print(array.genericChildTypeNames) // ["String"]
-print(dict.genericChildTypeNames) // ["String", "Int"]
+print(array.genericTypeNames) // ["String"]
+print(dict.genericTypeNames) // ["String", "Int"]
 ```
 
 ### NSObject Integration
@@ -109,8 +109,8 @@ protocol TypeNameDescribable {
 ### Instance Properties
 
 - `typeName: String` - Full type name including generics
-- `genericRootTypeName: String` - Type name without generic parameters
-- `genericChildTypeNames: [String]` - Array of generic type parameters
+- `rootTypeName: String` - Type name without generic parameters
+- `genericTypeNames: [String]` - Array of generic type parameters
 
 ### Static Properties
 
