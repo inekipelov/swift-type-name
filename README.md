@@ -1,5 +1,14 @@
 # TypeName
 
+[![Swift](https://img.shields.io/badge/Swift-5.0+-orange.svg)](https://swift.org)
+[![Swift Package Manager](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Build Status](https://github.com/inekipelov/swift-type-name/actions/workflows/swift.yml/badge.svg)](https://github.com/inekipelov/swift-type-name/actions/workflows/ci.yml)  
+[![iOS](https://img.shields.io/badge/iOS-9.0+-blue.svg)](https://developer.apple.com/ios/)
+[![macOS](https://img.shields.io/badge/macOS-10.10+-white.svg)](https://developer.apple.com/macos/)
+[![tvOS](https://img.shields.io/badge/tvOS-9.0+-black.svg)](https://developer.apple.com/tvos/)
+[![watchOS](https://img.shields.io/badge/watchOS-2.0+-orange.svg)](https://developer.apple.com/watchos/)
+
 Utility Swift package for getting type names at runtime and compile time. Protocol-oriented approach for convenient and consistent type name access.
 
 ## Features
@@ -7,11 +16,6 @@ Utility Swift package for getting type names at runtime and compile time. Protoc
 - **Runtime type name detection** - Get type names for any instance
 - **Static type name access** - Access type names without instances
 - **Generic type support** - Parse and extract generic type information
-
-## Requirements
-
-- Swift 5.0+
-- iOS 9.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
 
 ## Installation
 
